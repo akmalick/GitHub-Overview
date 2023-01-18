@@ -11,7 +11,7 @@ jobs:
         shell: bash
         run: echo Hello World! This is the first Job
       - name: checkout
-        uses: action/checkout@v3
+        uses: actions/checkout@v3
       - name: greeting
         id: greeting
         uses: actions/hello-world-javascript-action@main
